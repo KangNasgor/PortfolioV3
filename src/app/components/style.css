@@ -1,0 +1,37 @@
+@keyframes on-render {
+  0% {
+    transform: translateX(-50%);
+    opacity: 0;
+  }
+  100% {
+    transform: none;
+    opacity: 1;
+  }
+}
+@keyframes on-render-2 {
+  0% {
+    transform: translateX(50%);
+    opacity: 0;
+  }
+  100% {
+    transform: none;
+    opacity: 1;
+  }
+}
+@keyframes on-render-3{
+  0%{
+    opacity : 0;
+  }
+  100%{
+    opacity: 1;
+  }
+}
+.animation-2{
+  animation: on-render-2 0.7s forwards;
+}
+.animation {
+  animation: on-render 0.7s forwards;
+}
+.animation-3{
+  animation: on-render-3 0.7s forwards;
+}

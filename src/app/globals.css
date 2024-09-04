@@ -31,3 +31,9 @@ body {
     text-wrap: balance;
   }
 }
+.lato{
+  font-family: var(--font-lato);
+}
+.montserrat{
+  font-family: var(--font-montserrat);
+}
