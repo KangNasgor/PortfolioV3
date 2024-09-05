@@ -4,6 +4,8 @@ import 'aos/dist/aos.css';
 import AOS from 'aos';
 import { useEffect } from "react";
 import "../globals.css";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faUser,faFile } from "@fortawesome/free-solid-svg-icons";
 
 export default function About() {
   useEffect(()=>{
@@ -13,8 +15,8 @@ export default function About() {
     });
   });
   return (
-    <div className="h-screen bg-gradient-to-b black flex items-center" id="about">
-      <div className="flex flex-col md:flex-row w-4/5 bg-zinc-800 mx-auto rounded p-6 md:p-9 justify-center gap-6 md:gap-20 items-center">
+    <div className="h-screen bg-gradient-to-b black flex items-center" id="about" data-aos="fade">
+      <div className="flex flex-col md:flex-row w-4/5 bg-zinc-800 mx-auto rounded p-6 md:p-9 justify-center gap-6 md:gap-20 items-center z-20">
         <div className="md:w-5/12" data-aos="fade-right">
           <h1 className="text-3xl md:text-4xl lato">Hi, i&apos;m Leonard, a student who&apos;s interested in programming especially Web Development.</h1>
         </div>

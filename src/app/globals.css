@@ -37,3 +37,7 @@ body {
 .montserrat{
   font-family: var(--font-montserrat);
 }
+.text-stroke{
+  -webkit-text-stroke-color : rgb(254 240 138);
+  -webkit-text-stroke-width: 0.5px;
+}
