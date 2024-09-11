@@ -22,7 +22,8 @@
     "react": "^18",
     "react-dom": "^18",
     "react-move": "^6.5.0",
-    "sharp": "^0.33.5"
+    "sharp": "^0.33.5",
+    "webpack": "^5.94.0"
   },
   "devDependencies": {
     "eslint": "^8",

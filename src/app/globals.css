@@ -41,3 +41,12 @@ body {
   -webkit-text-stroke-color : rgb(254 240 138);
   -webkit-text-stroke-width: 0.5px;
 }
+.oswald{
+  font-family: var(--font-oswald);
+}
+.text-upright{
+  text-orientation: upright;
+}
+.text-normal{
+  text-orientation: unset;
+}
