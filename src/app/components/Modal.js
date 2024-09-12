@@ -1,33 +1,49 @@
 'use client'
 import React from 'react'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faInstagram,faGithub,faYoutube } from '@fortawesome/free-brands-svg-icons';
 
 export default function Modal({ display,setDisplay }) {
   const close = () => {
     setDisplay(false);
   }
   return (
-    <div className={`bg-white text-black px-5 py-4 z-50 absolute left-1/2 transform -translate-x-1/2 w-full top-0 h-full rounded text-start transition-transform ${display == false ? 'hidden' : 'block'}`}>
-        <div className='flex w-full h-8 justify-end'>
-            <button onClick={close}>
-                <div className='gap-1'>
-                    <div className='w-5 h-1 bg-black rounded rotate-45 transform translate-y-1'></div>
-                    <div className='w-5 h-1 bg-black rounded -rotate-45'></div>
+    <div className={`w-full h-full bg-black/[0.8] fixed left-1/2 transform -translate-x-1/2 top-0 rounded text-start transition-all ${display == false ? 'hidden' : 'block'}`} style={{zIndex : 9999}}>
+        <div className={`bg-white text-black px-5 py-4 mt-52 w-5/12 rounded mx-auto`} data-aos="fade-down">
+            <div className='flex w-full h-8 items-center mb-20 gap-2 justify-between'>
+                <button onClick={close}>
+                    <div className='gap-1'>
+                        <div className='w-5 h-1 bg-black rounded rotate-45 transform translate-y-1'></div>
+                        <div className='w-5 h-1 bg-black rounded -rotate-45'></div>
+                    </div>
+                </button>
+                <h1 className='text-center text-3xl w-fit'>Contacts</h1>
+            </div>
+            <div className='flex flex-row gap-5'>
+                <div className='bg-black text-white px-3 pb-3 rounded w-1/2 mx-auto transition-all hover:scale-110'>
+                    <div className='w-14 h-14 bg-yellow-300 rounded-full mx-auto flex justify-center items-center transform -translate-y-5'>
+                        <FontAwesomeIcon icon={faInstagram} className='text-3xl text-black'/>
+                    </div>
+                    <div className='flex w-full -mt-3'>
+                        <p className='w-fit mx-auto'>@ashurazzx</p>
+                    </div>
                 </div>
-            </button>
-        </div>
-        <h1 className='text-center text-3xl'>Contacts</h1>
-        <div>
-            <div>
-                Instagram
-            </div>
-            <div>
-                Github
-            </div>
-            <div>
-                Telegram
-            </div>
-            <div>
-                Linkedin
+                <div className='bg-black text-white px-3 pb-3 rounded w-1/2 mx-auto transition-all hover:scale-110'>
+                    <div className='w-14 h-14 bg-yellow-300 rounded-full mx-auto flex justify-center items-center transform -translate-y-5'>
+                    <FontAwesomeIcon icon={faGithub} className='text-3xl text-black'/>
+                    </div>
+                    <div className='flex w-full -mt-3'>
+                        <p className='w-fit mx-auto'>KangNasgor</p>
+                    </div>
+                </div>
+                <div className='bg-black text-white px-3 pb-3 rounded w-1/2 mx-auto transition-all hover:scale-110'>
+                    <div className='w-14 h-14 bg-yellow-300 rounded-full mx-auto flex justify-center items-center transform -translate-y-5'>
+                        <FontAwesomeIcon icon={faYoutube} className='text-3xl text-black'/>
+                    </div>
+                    <div className='flex w-full -mt-3'>
+                        <p className='w-fit mx-auto'>KangNasgor</p>
+                    </div>
+                </div>
             </div>
         </div>
     </div>

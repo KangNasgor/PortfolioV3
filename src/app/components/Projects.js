@@ -36,7 +36,7 @@ export default function Projects() {
           />
         </div>
         <div
-          className="md:w-4/12 px-5 pb-10 bg-zinc-700 rounded mt-5 md:mt-0 z-20 overflow-hidden"
+          className="md:w-4/12 px-5 pb-10 bg-zinc-700 rounded-lg mt-5 md:mt-0 z-10 overflow-hidden"
           data-aos="fade"
         >
           {precs[active]}
@@ -51,7 +51,7 @@ const Websites = () => {
     <div className="mt-9" data-aos="fade-right">
     <h1 className="text-5xl mb-5 text-yellow-300 lato tracking-wide">Websites</h1>
       <h3>
-        These are my dummy websites that i'm using it to learn Web Development,
+        These are my dummy websites that i&apos;m using it to learn Web Development,
         some websites are for my personal practice, some are tasks from
         internship.
       </h3>

@@ -2,6 +2,7 @@ import { Inter, Lato, Montserrat, Oswald } from "next/font/google";
 import dynamic from "next/dynamic";
 import "./globals.css";
 import Navbar from "./components/Navbar";
+import Footer from "./components/Footer";
 
 const lato = Lato({
   subsets: ["latin"],
@@ -26,7 +27,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className={`${lato.variable} ${montserrat.variable} ${oswald.variable}`}>
-      <div className="flex h-screen absolute md:fixed flex-col md:flex-row z-0 text-center md:justify-center w-full items-center">
+      <div className="flex h-screen absolute md:fixed flex-col md:flex-row -z-30 text-center md:justify-center w-full items-center">
           <div className="text-10xl md:text-normal text-stroke text-black opacity-50">L</div>
           <div className="text-10xl md:text-normal text-stroke text-black opacity-50">E</div>
           <div className="text-10xl md:text-normal text-stroke text-black opacity-50">O</div>
@@ -37,6 +38,7 @@ export default function RootLayout({ children }) {
         </div>
         <Navbar />
         <div className="relative z-20">{children}</div>
+        <Footer />
       </body>
     </html>
   );

@@ -8,7 +8,7 @@ export default function ImageCarousels({images,active,prev,next}) {
   const activeStyling = {
     // CSS style for active index
     transform: "translateX(0%) scale(1.2)",
-    zIndex: 50,
+    zIndex: 15,
     transition: "0.5s ease",
   };
   return (
@@ -24,7 +24,7 @@ export default function ImageCarousels({images,active,prev,next}) {
                 : index > active // this checks if the index is larger than active (meaning the right image)
                 ? {
                     transform: `translateX(${30 * index - active}%)`,
-                    zIndex: `${20 / index + 1}`,
+                    zIndex: `${10 / index}`,
                     transition: "0.5s ease",
                   }
                 : index === 0 // this is for the first index when it's not an active index
@@ -35,7 +35,7 @@ export default function ImageCarousels({images,active,prev,next}) {
                 : {
                     // this is for the left image
                     transform: `translateX(${-30 * index - active}%)`,
-                    zIndex: `${20 * index + 1}`,
+                    zIndex: `${10 * index}`,
                     transition: "0.5s ease",
                   }
             }
