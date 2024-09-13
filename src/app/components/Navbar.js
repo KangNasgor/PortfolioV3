@@ -48,7 +48,11 @@ export default function Navbar() {
           transition: "0.5s ease",
         }}
       >
-          <Link href="/about" className="flex items-center gap-3 mt-14 bg-zinc-800 py-3 px-3 text-end transition shadow-inner">
+          <Link href="/" className="flex items-center gap-3 mt-14 mb-1 bg-zinc-800 py-3 px-3 text-end transition shadow-inner">
+            <FontAwesomeIcon icon={faUser} className="text-white"/>
+            <h2 className="text-white">Home</h2>
+          </Link>
+          <Link href="/about" className="flex items-center gap-3 bg-zinc-800 py-3 px-3 text-end transition shadow-inner">
             <FontAwesomeIcon icon={faUser} className="text-white"/>
             <h2 className="text-white">About Me</h2>
           </Link>

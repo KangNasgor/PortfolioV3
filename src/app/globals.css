@@ -44,6 +44,9 @@ body {
 .oswald{
   font-family: var(--font-oswald);
 }
+.poppins{
+  font-family: var(--font-poppins);
+}
 .text-upright{
   text-orientation: upright;
 }

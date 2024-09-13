@@ -33,6 +33,7 @@ export default function Projects() {
             active={active}
             prev={prev}
             next={next}
+            setActive={setActive}
           />
         </div>
         <div

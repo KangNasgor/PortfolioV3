@@ -15,8 +15,8 @@ module.exports = {
         '3xl': '0px 0px 60px 5px rgba(0, 0, 0, 0.3)',
       },
       fontSize:{
-        '10xl': '250px',
-        '11xl': '300px',
+        '10xl': '9rem',
+        '11xl': '250px',
       }
     },
   },

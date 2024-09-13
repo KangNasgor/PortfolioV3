@@ -14,15 +14,15 @@ export default function Footer() {
         style={{ height: "0.5px" }}
       ></div>
       <div className=" w-9/12 flex flex-col md:flex-row justify-between gap-8 mx-auto">
-        <div className="flex flex-col items-start w-3/12">
-          <h1 className="text-white text-3xl text-center">About</h1>
+        <div className="flex flex-col items-start w-full md:w-3/12">
+          <h1 className="text-yellow-300 text-3xl text-center">About</h1>
           <h3 className="text-white mt-4">
             This website is all about me, my skills, my knowledge, and my
             improvement in programming
           </h3>
         </div>
-        <div className="bg- flex flex-col items-start w-fit">
-          <h1 className="text-white text-3xl text-center">Contact</h1>
+        <div className="flex flex-col items-start w-full md:w-fit">
+          <h1 className="text-yellow-300 text-3xl text-center">Contact</h1>
           <div className="text-white mt-4 flex flex-col gap-1">
             <a href="https://www.instagram.com/ashurazzx/" target="_blank" className="transition-all hover:text-slate-500 transform hover:translate-x-2">
               <div className="flex items-center gap-2">
@@ -44,7 +44,7 @@ export default function Footer() {
             </a>
           </div>
         </div>
-        <div className="flex flex-col items-start w-fit">
+        <div className="flex flex-col justify-center w-full md:w-fit">
           <h3 className="text-white">© 2024 Leonard Alfareno. All Rights Reserved.</h3>
         </div>
       </div>

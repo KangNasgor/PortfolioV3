@@ -4,7 +4,7 @@ import React, { useState } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faArrowRight,faArrowLeft } from "@fortawesome/free-solid-svg-icons";
 
-export default function ImageCarousels({images,active,prev,next}) {
+export default function ImageCarousels({images,active,prev,next,setActive}) {
   const activeStyling = {
     // CSS style for active index
     transform: "translateX(0%) scale(1.2)",
@@ -18,6 +18,7 @@ export default function ImageCarousels({images,active,prev,next}) {
           <div
             className="absolute w-32 h-32 md:w-52 md:h-52"
             key={index}
+            onClick={() => {setActive(index)}}
             style={
               index === active // this checks if the index is active
                 ? activeStyling
