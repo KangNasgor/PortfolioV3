@@ -24,13 +24,8 @@ export default function ImageCarousels({images,active,prev,next,setActive}) {
                 ? activeStyling
                 : index > active // this checks if the index is larger than active (meaning the right image)
                 ? {
-                    transform: `translateX(${30 * (index - active)}%)`,
+                    transform: `translateX(${20 * index}%)`,
                     zIndex: `${40 - (index - active) * 5}`,
-                    transition: "0.5s ease",
-                  }
-                : index === 0 // this is for the first index when it's not an active index
-                ? {
-                    transform: "translateX(-40%)",
                     transition: "0.5s ease",
                   }
                 : {

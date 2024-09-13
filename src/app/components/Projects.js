@@ -18,10 +18,10 @@ export default function Projects() {
     "/assets/app.png",
   ];
   const precs = {
-    0: <Websites/>,
-    1: <Games/>,
-    2: <Apps/>,
-    3: <Apps/>
+    0: <DapurCaica />,
+    1: <SwakaryaSouvenir />,
+    2: <Unity />,
+    3: <ToDoApp />,
   };
   return (
     <div className="h-screen pt-10 z-20">
@@ -39,7 +39,7 @@ export default function Projects() {
           />
         </div>
         <div
-          className="md:w-4/12 px-5 pb-10 bg-zinc-700 rounded-lg mt-5 md:mt-0 z-10 overflow-hidden"
+          className="md:w-4/12 pl-6 pr-10 pb-10 pt-5 bg-zinc-700 rounded-lg mt-5 md:mt-0 z-10 overflow-hidden"
           data-aos="fade"
         >
           {precs[active]}
@@ -49,38 +49,60 @@ export default function Projects() {
   );
 }
 
-const Websites = () => {
+const DapurCaica = () => {
   return (
-    <div className="mt-9" data-aos="fade-right">
-    <h1 className="text-5xl mb-5 text-yellow-300 lato tracking-wide">Websites</h1>
+    <div className="" data-aos="fade-right">
+      <h1 className="text-4xl mb-5 text-yellow-300 lato tracking-wide">
+        Dapur Caica Website
+      </h1>
       <h3>
-        These are my dummy websites that i&apos;m using it to learn Web Development,
-        some websites are for my personal practice, some are tasks from
-        internship.
+        Dapur Caica is an MSMEs website designed to promote its products. It
+        provides information about the business, its products, location, and
+        contact details to help customers connect easily.
       </h3>
     </div>
   );
 };
-const Games = () => {
+const SwakaryaSouvenir = () => {
   return (
-    <div className="mt-9" data-aos="fade-right">
-      <h1 className="text-5xl mb-5 text-yellow-300 lato tracking-wide">Game</h1>
+    <div className="" data-aos="fade-right">
+      <h1 className="text-4xl mb-5 text-yellow-300 lato tracking-wide">
+        Swakarya Souvenir Website
+      </h1>
       <h3>
-        I used to learn a bit of C# and Unity Game Development but now i&apos;m
-        more interested in Web Development
+        SwakaryaSouvenir website is a website made for my school task, it&apos;s
+        a website that promotes my team&apos;s products like keychain, nametag,
+        etc.
       </h3>
     </div>
   );
 };
-const Apps = () => {
+const Unity = () => {
   return (
-    <div className="mt-9" data-aos="fade-right">
-      <h1 className="text-5xl mb-5 text-yellow-300 lato tracking-wide">Apps</h1>
+    <div className="" data-aos="fade-right">
+      <h1 className="text-4xl mb-5 text-yellow-300 lato tracking-wide">
+        Unity
+      </h1>
       <h3>
-        I created 2 apps in my internships, one is a basic app that has basic
-        features like sign-up, sign-in,and fetching data from API. The second
-        one is a To-Do app that has some features including creating, editing,
-        and deleting a schedule.
+        This isn&apos;t a completed project because it's not on the track of the
+        career i pursue, I joined a GameDev team but i&apos;m out of the team
+        because i want to focus more in web development, I learned some
+        mechanics of how game is being made like event handler, hitbox,
+        collider, trigger, etc.
+      </h3>
+    </div>
+  );
+};
+const ToDoApp = () => {
+  return (
+    <div className="" data-aos="fade-right">
+      <h1 className="text-4xl mb-5 text-yellow-300 lato tracking-wide">
+        To-Do App
+      </h1>
+      <h3>
+        I created a simple to-do app for mobile using react native that has
+        features like create, update, delete, edit, and save a to-do or a
+        schedule.
       </h3>
     </div>
   );
