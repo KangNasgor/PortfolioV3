@@ -29,7 +29,7 @@ export default function Banner() {
             data-aos="fade"
           ></div>
         </div>
-        <div className="text-center w-auto flex flex-col items-start rounded p-5" data-aos="fade-up">
+        <div className="text-center w-auto flex flex-col items-start rounded" data-aos="fade-up">
           <h1
             className="text-3xl md:text-5xl mr-3 md:mb-2"
           >
@@ -41,12 +41,6 @@ export default function Banner() {
             interval={2000}
             translateY={68}
           />
-          <h1
-            className="text-md md:text-2xl md:mt-5 text-white opacity-50"
-            data-aos="fade-left"
-          >
-            Student in SMKN 8 Semarang
-          </h1>
           <div className="flex flex-col md:w-1/4" data-aos="fade-up">
             <button onClick={displayModal} className="bg-gradient-to-r from-white to-gray-400 text-black transition-all ease-in-out duration-300 rounded p-1 w-28 h-10 mt-5">
               Contacts

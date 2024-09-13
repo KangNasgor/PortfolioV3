@@ -29,11 +29,11 @@ export default function page() {
             <p className="leading-6 text-left">
               I&apos;m currently a student in Vocational High School 8 Semarang,
               i love <span className="text-yellow-300">programming</span> and
-              <span className="text-yellow-300">gaming</span>, I&apos;ve been
+              <span className="text-yellow-300"> gaming</span>, I&apos;ve been
               playing game since i&apos;m in kindergarten and coding since
               i&apos;m in Junior High School, I&apos;m passionate about creating
               cool things and always curious about how things like apps and
-              websites being made
+              websites being made.
             </p>
           </div>
         </div>

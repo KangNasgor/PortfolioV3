@@ -11,7 +11,7 @@ const CarouselText = ({text, interval = 2000, className, translateY = 68}) => {
     return () => clearInterval(textInterval);
   }, [text.length, interval]);
   return (
-    <div className="h-10 w-full md:h-12 overflow-hidden">
+    <div className="h-10 w-full md:h-14 overflow-hidden">
       <div className="flex flex-col text-start gap-8 md:gap-5" style={{
         transition: 'transform 0.5s ease-in-out',
         transform: `translateY(-${index * translateY}px)`,

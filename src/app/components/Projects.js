@@ -9,10 +9,11 @@ export default function Projects() {
     setActive((prev) => (prev === images.length - 1 ? 0 : prev + 1));
   };
   const prev = () => {
-    setActive((prev) => (prev === 0 ? 2 : prev - 1));
+    setActive((prev) => (prev === 0 ? images.length - 1 : prev - 1));
   };
   const images = [
-    "/assets/webs.jpg",
+    "/assets/dapur-caica.png",
+    "/assets/swakarya-souvenir.png",
     "/assets/game.png",
     "/assets/app.png",
   ];
@@ -20,6 +21,7 @@ export default function Projects() {
     0: <Websites/>,
     1: <Games/>,
     2: <Apps/>,
+    3: <Apps/>
   };
   return (
     <div className="h-screen pt-10 z-20">
