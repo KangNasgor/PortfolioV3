@@ -52,10 +52,10 @@ export default function Projects() {
 const DapurCaica = () => {
   return (
     <div className="" data-aos="fade-right">
-      <h1 className="text-4xl mb-5 text-yellow-300 lato tracking-wide">
+      <h1 className="text-2xl md:text-4xl mb-5 text-yellow-300 lato tracking-wide">
         Dapur Caica Website
       </h1>
-      <h3>
+      <h3 className="text-sm md:text-md">
         Dapur Caica is an MSMEs website designed to promote its products. It
         provides information about the business, its products, location, and
         contact details to help customers connect easily.
@@ -66,10 +66,10 @@ const DapurCaica = () => {
 const SwakaryaSouvenir = () => {
   return (
     <div className="" data-aos="fade-right">
-      <h1 className="text-4xl mb-5 text-yellow-300 lato tracking-wide">
+      <h1 className="text-2xl md:text-4xl mb-5 text-yellow-300 lato tracking-wide">
         Swakarya Souvenir Website
       </h1>
-      <h3>
+      <h3 className="text-sm md:text-md">
         SwakaryaSouvenir website is a website made for my school task, it&apos;s
         a website that promotes my team&apos;s products like keychain, nametag,
         etc.
@@ -80,10 +80,10 @@ const SwakaryaSouvenir = () => {
 const Unity = () => {
   return (
     <div className="" data-aos="fade-right">
-      <h1 className="text-4xl mb-5 text-yellow-300 lato tracking-wide">
+      <h1 className="text-2xl md:text-4xl mb-5 text-yellow-300 lato tracking-wide">
         Unity
       </h1>
-      <h3>
+      <h3 className="text-sm md:text-md">
         This isn&apos;t a completed project because it's not on the track of the
         career i pursue, I joined a GameDev team but i&apos;m out of the team
         because i want to focus more in web development, I learned some
@@ -96,10 +96,10 @@ const Unity = () => {
 const ToDoApp = () => {
   return (
     <div className="" data-aos="fade-right">
-      <h1 className="text-4xl mb-5 text-yellow-300 lato tracking-wide">
+      <h1 className="text-2xl md:text-4xl mb-5 text-yellow-300 lato tracking-wide">
         To-Do App
       </h1>
-      <h3>
+      <h3 className="text-sm md:text-md">
         I created a simple to-do app for mobile using react native that has
         features like create, update, delete, edit, and save a to-do or a
         schedule.

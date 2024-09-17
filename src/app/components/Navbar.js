@@ -1,7 +1,7 @@
 'use client'
 import React from "react";
 import { useState, useEffect } from "react";
-import { faUser } from "@fortawesome/free-solid-svg-icons";
+import { faUser,faHome } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import Link from "next/link";
 
@@ -49,7 +49,7 @@ export default function Navbar() {
         }}
       >
           <Link href="/" className="flex items-center gap-3 mt-14 mb-1 bg-zinc-800 py-3 px-3 text-end transition shadow-inner">
-            <FontAwesomeIcon icon={faUser} className="text-white"/>
+            <FontAwesomeIcon icon={faHome} className="text-white"/>
             <h2 className="text-white">Home</h2>
           </Link>
           <Link href="/about" className="flex items-center gap-3 bg-zinc-800 py-3 px-3 text-end transition shadow-inner">
