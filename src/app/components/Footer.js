@@ -18,7 +18,7 @@ export default function Footer() {
           <h1 className="text-yellow-300 text-3xl text-center">About</h1>
           <h3 className="text-white mt-4">
             This website is all about me, my skills, my knowledge, and my
-            improvement in programming
+            improvement in programming.
           </h3>
         </div>
         <div className="flex flex-col items-start w-full md:w-fit">
