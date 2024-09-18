@@ -84,7 +84,7 @@ const Unity = () => {
         Unity
       </h1>
       <h3 className="text-sm md:text-md">
-        This isn&apos;t a completed project because it's not on the track of the
+        This isn&apos;t a completed project because it&apos;s not on the track of the
         career i pursue, I joined a GameDev team but i&apos;m out of the team
         because i want to focus more in web development, I learned some
         mechanics of how game is being made like event handler, hitbox,

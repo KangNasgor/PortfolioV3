@@ -19,10 +19,10 @@ export default function Modal({ display, setDisplay }) {
       style={{ zIndex: 9999 }}
     >
       <div
-        className={`bg-white text-black px-5 py-4 mt-52 w-5/12 rounded mx-auto`}
+        className={`bg-white text-black px-5 py-4 mt-52 w-9/12 md:w-5/12 rounded mx-auto`}
         data-aos="fade-down"
       >
-        <div className="flex w-full h-8 items-center mb-20 gap-2 justify-between">
+        <div className="flex w-full h-8 items-center mb-8 md:mb-20 gap-2 justify-between">
           <button onClick={close}>
             <div className="gap-1">
               <div className="w-5 h-1 bg-black rounded rotate-45 transform translate-y-1"></div>
@@ -31,8 +31,8 @@ export default function Modal({ display, setDisplay }) {
           </button>
           <h1 className="text-center text-3xl w-fit">Contacts</h1>
         </div>
-        <div className="flex flex-row gap-5">
-          <div className="bg-black text-white px-3 pb-3 rounded w-1/2 mx-auto transition-all hover:scale-110 transform active:translate-y-2">
+        <div className="flex flex-col md:flex-row gap-5">
+          <div className="bg-black text-white md:px-3 pb-3 rounded w-1/2 mx-auto transition-all hover:scale-110 transform active:translate-y-2">
             <a href="https://www.instagram.com/ashurazzx/" target="_blank">
               <div className="w-14 h-14 bg-yellow-300 rounded-full mx-auto flex justify-center items-center transform -translate-y-5">
                 <FontAwesomeIcon
@@ -40,12 +40,10 @@ export default function Modal({ display, setDisplay }) {
                   className="text-3xl text-black"
                 />
               </div>
-              <div className="flex w-full -mt-3">
-                <p className="w-fit mx-auto">@ashurazzx</p>
-              </div>
+              <p className="w-fit mx-auto -mt-3">@ashurazzx</p>
             </a>
           </div>
-          <div className="bg-black text-white px-3 pb-3 rounded w-1/2 mx-auto transition-all hover:scale-110 transform active:translate-y-2">
+          <div className="bg-black text-white md:px-3 pb-3 rounded w-1/2 mx-auto transition-all hover:scale-110 transform active:translate-y-2">
             <a href="https://github.com/KangNasgor" target="_blank">
               <div className="w-14 h-14 bg-yellow-300 rounded-full mx-auto flex justify-center items-center transform -translate-y-5">
                 <FontAwesomeIcon
@@ -58,7 +56,7 @@ export default function Modal({ display, setDisplay }) {
               </div>
             </a>
           </div>
-          <div className="bg-black text-white px-3 pb-3 rounded w-1/2 mx-auto transition-all hover:scale-110 transform active:translate-y-2">
+          <div className="bg-black text-white md:px-3 pb-3 rounded w-1/2 mx-auto transition-all hover:scale-110 transform active:translate-y-2">
             <a href="https://www.youtube.com/@NasgorKang" target="_blank">
               <div className="w-14 h-14 bg-yellow-300 rounded-full mx-auto flex justify-center items-center transform -translate-y-5">
                 <FontAwesomeIcon
