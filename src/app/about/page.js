@@ -43,7 +43,7 @@ export default function page() {
           </div>
         </div>
       </div>
-      <div className="h-fit pt-5 mb-10">
+      <div className="h-fit mb-10 pt-5">
         <h1 className="text-5xl w-fit mx-auto mb-10 sticky top-28">
           Some <span className="text-yellow-400">"Things"</span> i like
         </h1>
@@ -60,10 +60,14 @@ export default function page() {
           <div className="flex flex-col gap-5 w-6/12">
             <h1 className="text-4xl w-fit">Gaming</h1>
             <p className="ml-1">
-              I've always love gaming, since i was in kindergarten i played
-              mobile games like angry birds and others in my free time and
-              become a gamer since that day, now i&apos;m mostly playing pc
-              games and barely touch mobile games.
+              I’ve always loved gaming. Back in kindergarten, I used to spend my
+              free time playing mobile games like Angry Birds and others, and
+              that’s when my love for gaming really began. Over the years, as I
+              got older, I started exploring more types of games and different
+              platforms. Now, I mostly play PC games because I enjoy the
+              complexity and variety they offer. Although I rarely touch mobile
+              games anymore, those early experiences are what sparked my passion
+              for gaming in the first place.
             </p>
           </div>
         </div>
@@ -80,29 +84,39 @@ export default function page() {
           <div className="flex flex-col gap-5 w-6/12">
             <h1 className="text-4xl w-fit">Learning</h1>
             <p className="ml-1">
-              I only love learning when it comes to what i like, i learn how the
-              games i&apos;m playing work, i start building website because
-              i&apos;m bored and want to learn something new, i learn basic
-              english mostly from youtube because i was looking for programming
-              tutorial, and etc.
+              I only enjoy learning when it&apos;s about something I&apos;m
+              interested in. I learn how the games I play work, and I started
+              building websites because I was bored and wanted to explore
+              something new. I picked up basic English mostly from YouTube while
+              searching for programming tutorials, and so on.
             </p>
           </div>
         </div>
-        <div className="h-fit w-10/12 mx-auto mt-36 p-5 flex sticky top-48 gap-5 bg-zinc-800">
+        <div className="h-fit w-10/12 mx-auto mt-36 p-5 flex items-center sticky top-48 gap-5 bg-zinc-800">
           <div className="">
             <Image
-              src="/assets/darksouls3.png"
-              width={600}
-              height={600}
+              src="/assets/view.jpg"
+              width={500}
+              height={500}
               alt="gaming"
               className="mx-auto"
             />
           </div>
-          <div className="flex flex-col gap-5">
+          <div className="flex flex-col gap-5 w-6/12">
             <h1 className="text-4xl w-fit">View</h1>
-            <p className="ml-1">I love it</p>
+            <p className="ml-1">
+              I love staring at a view when I&apos;m tired. It kind of heals me
+              because the vibe is so chill, and I really enjoy it. There&apos;s
+              something peaceful about just sitting back and taking it all in.
+              It helps me clear my mind, almost like the world slows down for a
+              moment. The calmness of the scenery makes everything feel lighter,
+              and I always feel a bit more refreshed afterward.
+            </p>
           </div>
         </div>
+      </div>
+      <div className="h-screen">
+
       </div>
     </div>
   );
