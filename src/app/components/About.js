@@ -16,7 +16,7 @@ export default function About() {
   });
   return (
     <div className="h-screen bg-gradient-to-b black flex items-center" id="about" data-aos="fade">
-      <div className="flex flex-col md:flex-row w-4/5 bg-gradient-to-br from-zinc-700/50 via-zinc-700/50 to-zinc-600/50 mx-auto rounded-xl p-6 md:p-9 justify-center gap-6 md:gap-20 items-center">
+      <div className="flex flex-col md:flex-row w-4/5 bg-gradient-to-br from-zinc-700/75 via-zinc-700/75 to-zinc-600/75 mx-auto rounded-xl p-6 md:p-9 justify-center gap-6 md:gap-20 items-center">
         <div className="md:w-5/12" data-aos="fade-right">
           <h1 className="text-3xl md:text-4xl lato">Hi, i&apos;m <span className="text-yellow-300">Leonard</span>, a student who&apos;s interested in programming especially Web Development.</h1>
         </div>
