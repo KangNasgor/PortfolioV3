@@ -45,7 +45,7 @@ export default function page() {
       </div>
       <div className="h-fit mb-10 pt-5">
         <h1 className="text-5xl w-fit mx-auto mb-10 sticky top-28">
-          Some <span className="text-yellow-400">"Things"</span> i like
+          Some <span className="text-yellow-400">&quot;Things&quot;</span> i like
         </h1>
         <div className="h-fit w-10/12 mx-auto p-5 flex items-center sticky top-48 gap-5 bg-zinc-800">
           <div className="">
