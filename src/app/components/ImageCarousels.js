@@ -30,7 +30,7 @@ export default function ImageCarousels({images,active,prev,next,setActive}) {
                   }
                 : {
                     // this is for the left image
-                    transform: `translateX(-${40 - (index * active)}%)`,
+                    transform: `translateX(-${20 + (active - index) * 10}%)`,
                     zIndex: `${5 * index}`,
                     transition: "0.5s ease",
                   }

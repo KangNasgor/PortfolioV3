@@ -54,7 +54,7 @@ export default function Navbar() {
           </Link>
           <Link href="/about" className="flex items-center gap-3 bg-zinc-800 py-3 px-3 text-end transition shadow-inner">
             <FontAwesomeIcon icon={faUser} className="text-white"/>
-            <h2 className="text-white">About Me</h2>
+            <h2 className="text-white">Me</h2>
           </Link>
       </div>
     </div>
