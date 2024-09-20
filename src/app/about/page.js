@@ -45,7 +45,8 @@ export default function page() {
       </div>
       <div className="h-fit mb-10 pt-5">
         <h1 className="text-5xl w-fit mx-auto mb-10 sticky top-28">
-          Some <span className="text-yellow-400">&quot;Things&quot;</span> i like
+          Some <span className="text-yellow-400">&quot;Things&quot;</span> i
+          like
         </h1>
         <div className="h-fit w-10/12 mx-auto p-5 flex items-center sticky top-48 gap-5 bg-zinc-800">
           <div className="">
@@ -114,10 +115,30 @@ export default function page() {
             </p>
           </div>
         </div>
+        <div className="h-fit w-10/12 mx-auto mt-36 p-5 flex items-center sticky top-48 gap-5 bg-zinc-800">
+          <div className="">
+            <Image
+              src="/assets/cat.jpg"
+              width={600}
+              height={600}
+              alt="cat"
+              className="mx-auto"
+            />
+          </div>
+          <div className="flex flex-col gap-5 w-6/12">
+            <h1 className="text-4xl w-fit">Cat</h1>
+            <p className="ml-1">
+              I love them because they're so cute and fluffy. I enjoy stroking
+              their fur, and when they purr, it sounds adorable. I currently
+              have two cats, one male and one female, and they both look so
+              cute. Spending time with them always makes me feel relaxed,
+              especially when they curl up next to me. Their playful
+              personalities and soft fur just make them impossible to resist.
+            </p>
+          </div>
+        </div>
       </div>
-      <div className="h-screen">
-
-      </div>
+      <div className="h-screen"></div>
     </div>
   );
 }
