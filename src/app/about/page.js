@@ -5,7 +5,7 @@ import pfp from "../assets/pfp.png";
 export default function page() {
   return (
     <div>
-      <div className="h-fit md:h-screen">
+      <div className="h-fit md:h-screen mb-14 md:mb-0">
         <div className="w-3/4 mx-auto mt-14 md:mt-28 flex flex-col md:flex-row items-center gap-8 pl-4 pr-2 pt-3 pb-6 md:p-12 bg-gradient-to-br from-zinc-500/50 via-zinc-500/50 to-zinc-400/50 rounded-md">
           <div className="flex justify-center hover:scale-105 transition duration-500 relative w-fit">
             <Image
@@ -44,10 +44,10 @@ export default function page() {
         </div>
       </div>
       <div className="h-fit mb-10 pt-5">
-        <h1 className="text-5xl w-fit mx-auto mb-10 sticky top-28">
+        <h1 className="text-3xl md:text-5xl w-fit mx-auto mb-10 sticky top-10 md:top-28">
           <span className="text-yellow-400">Things</span> i like
         </h1>
-        <div className="h-fit w-10/12 mx-auto p-5 flex items-center sticky top-48 gap-5 bg-zinc-800">
+        <div className="h-fit w-10/12 mx-auto md:p-5 flex flex-col md:flex-row items-center sticky top-28 md:top-48 gap-1 md:gap-5 bg-zinc-800 rounded-md md:rounded-none">
           <div className="">
             <Image
               src="/assets/darksouls3.png"
@@ -57,9 +57,9 @@ export default function page() {
               className="mx-auto"
             />
           </div>
-          <div className="flex flex-col gap-5 w-6/12">
-            <h1 className="text-4xl text-yellow-300 w-fit">Gaming</h1>
-            <p className="ml-1">
+          <div className="flex flex-col gap-1 md:gap-5 px-2 pb-3 md:p-0 w-full md:w-6/12">
+            <h1 className="text-3xl md:text-5xl text-yellow-300 w-fit mx-auto">Gaming</h1>
+            <p className="ml-1 text-sm">
               I’ve always loved gaming. Back in kindergarten, I used to spend my
               free time playing mobile games like Angry Birds and others, and
               that’s when my love for gaming really began. Over the years, as I
@@ -71,7 +71,7 @@ export default function page() {
             </p>
           </div>
         </div>
-        <div className="h-fit w-10/12 mx-auto mt-36 p-5 flex items-center sticky top-48 gap-5 bg-zinc-800">
+        <div className="h-fit w-10/12 mx-auto mt-36 pb-5 md:p-5 flex flex-col md:flex-row items-center sticky top-28 md:top-48 gap-1 md:gap-5 bg-zinc-800 rounded-sm md:rounded-none">
           <div className="">
             <Image
               src="/assets/learning.png"
@@ -81,9 +81,9 @@ export default function page() {
               className="mx-auto"
             />
           </div>
-          <div className="flex flex-col gap-5 w-6/12">
-            <h1 className="text-4xl text-yellow-300 w-fit">Learning</h1>
-            <p className="ml-1">
+          <div className="flex flex-col gap-1 md:gap-5 px-2 pb-3 md:p-0 w-full md:w-6/12">
+            <h1 className="text-3xl md:text-5xl text-yellow-300 w-fit mx-auto">Learning</h1>
+            <p className="ml-1 text-sm">
               I only enjoy learning when it&apos;s about something I&apos;m
               interested in. I learn how the games I play work, and I started
               building websites because I was bored and wanted to explore
@@ -92,7 +92,7 @@ export default function page() {
             </p>
           </div>
         </div>
-        <div className="h-fit w-10/12 mx-auto mt-36 p-5 flex items-center sticky top-48 gap-5 bg-zinc-800">
+        <div className="h-fit w-10/12 mx-auto mt-36 md:p-5 flex flex-col md:flex-row items-center sticky top-28 md:top-48 gap-5 bg-zinc-800 rounded-sm md:rounded-none">
           <div className="">
             <Image
               src="/assets/view.jpg"
@@ -102,9 +102,9 @@ export default function page() {
               className="mx-auto"
             />
           </div>
-          <div className="flex flex-col gap-5 w-6/12">
-            <h1 className="text-4xl text-yellow-300 w-fit">View</h1>
-            <p className="ml-1">
+          <div className="flex flex-col gap-5 px-2 pb-3 md:p-0 w-full md:w-6/12">
+            <h1 className="text-3xl md:text-5xl text-yellow-300 w-fit mx-auto">View</h1>
+            <p className="ml-1 text-sm">
               I love staring at a view when I&apos;m tired. It kind of heals me
               because the vibe is so chill, and I really enjoy it. There&apos;s
               something peaceful about just sitting back and taking it all in.
@@ -114,7 +114,7 @@ export default function page() {
             </p>
           </div>
         </div>
-        <div className="h-fit w-10/12 mx-auto mt-36 p-5 flex items-center sticky top-48 gap-5 bg-zinc-800">
+        <div className="h-fit w-10/12 mx-auto mt-36 pb-5 md:p-5 flex flex-col md:flex-row items-center sticky top-28 md:top-48 gap-5 bg-zinc-800 rounded-sm md:rounded-none">
           <div className="">
             <Image
               src="/assets/cat.jpg"
@@ -124,9 +124,9 @@ export default function page() {
               className="mx-auto"
             />
           </div>
-          <div className="flex flex-col gap-5 w-6/12">
-            <h1 className="text-4xl text-yellow-300 w-fit">Cat</h1>
-            <p className="ml-1">
+          <div className="flex flex-col gap-5 px-2 pb-3 md:p-0 w-full md:w-6/12">
+            <h1 className="text-3xl md:text-5xl text-yellow-300 w-fit mx-auto">Cat</h1>
+            <p className="ml-1 text-sm">
               I love them because they&apos;re so cute and fluffy. I enjoy
               stroking their fur, and when they purr, it sounds adorable. I
               currently have two cats, one male and one female, and they both
@@ -136,7 +136,7 @@ export default function page() {
             </p>
           </div>
         </div>
-        <div className="h-fit w-10/12 mx-auto mt-36 p-5 flex items-center sticky top-48 gap-5 bg-zinc-800">
+        <div className="h-fit w-10/12 mx-auto mt-36 pb-28 md:p-5 flex flex-col md:flex-row items-center sticky top-28 md:top-48 gap-5 bg-zinc-800 rounded-sm md:rounded-none">
           <div className="">
             <Image
               src="/assets/aeri.jpg"
@@ -146,14 +146,14 @@ export default function page() {
               className="mx-auto"
             />
           </div>
-          <div className="flex flex-col gap-5 w-6/12">
-            <h1 className="text-4xl text-yellow-300 w-fit">Uchinaga Aeri</h1>
-            <p className="ml-1">
+          <div className="flex flex-col gap-5 px-2 pb-3 md:p-0 w-full md:w-6/12">
+            <h1 className="text-3xl md:text-5xl text-yellow-300 w-fit mx-auto md:mx-0">Uchinaga Aeri</h1>
+            <p className="ml-1 text-sm">
               idk she&apos;s just cute and i can&apos;t help myself, so...
             </p>
           </div>
         </div>
-        <div className="h-fit w-10/12 mx-auto mt-36 p-5 flex items-center sticky top-48 gap-5 bg-zinc-800">
+        <div className="h-fit w-10/12 mx-auto mt-36 md:p-5 flex flex-col md:flex-row items-center sticky top-28 md:top-48 gap-5 bg-zinc-800 rounded-sm md:rounded-none">
           <div className="">
             <Image
               src="/assets/nyam.jpg"
@@ -163,9 +163,9 @@ export default function page() {
               className="mx-auto"
             />
           </div>
-          <div className="flex flex-col gap-5 w-6/12">
-            <h1 className="text-4xl text-yellow-300 w-fit">Fried Rice</h1>
-            <p className="ml-1">
+          <div className="flex flex-col gap-5 px-2 pb-3 md:p-0 w-full md:w-6/12">
+            <h1 className="text-3xl md:text-5xl text-yellow-300 w-fit mx-auto">Fried Rice</h1>
+            <p className="ml-1 text-sm">
               This is my favorite dish, although it&apos;s not that healthy i
               still love it because in different places that serves fried rice
               as a dish, they come with different flavor, some have a bit sweet
