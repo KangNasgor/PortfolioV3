@@ -45,8 +45,7 @@ export default function page() {
       </div>
       <div className="h-fit mb-10 pt-5">
         <h1 className="text-5xl w-fit mx-auto mb-10 sticky top-28">
-          Some <span className="text-yellow-400">&quot;Things&quot;</span> i
-          like
+          <span className="text-yellow-400">Things</span> i like
         </h1>
         <div className="h-fit w-10/12 mx-auto p-5 flex items-center sticky top-48 gap-5 bg-zinc-800">
           <div className="">
@@ -59,7 +58,7 @@ export default function page() {
             />
           </div>
           <div className="flex flex-col gap-5 w-6/12">
-            <h1 className="text-4xl w-fit">Gaming</h1>
+            <h1 className="text-4xl text-yellow-300 w-fit">Gaming</h1>
             <p className="ml-1">
               I’ve always loved gaming. Back in kindergarten, I used to spend my
               free time playing mobile games like Angry Birds and others, and
@@ -83,7 +82,7 @@ export default function page() {
             />
           </div>
           <div className="flex flex-col gap-5 w-6/12">
-            <h1 className="text-4xl w-fit">Learning</h1>
+            <h1 className="text-4xl text-yellow-300 w-fit">Learning</h1>
             <p className="ml-1">
               I only enjoy learning when it&apos;s about something I&apos;m
               interested in. I learn how the games I play work, and I started
@@ -104,7 +103,7 @@ export default function page() {
             />
           </div>
           <div className="flex flex-col gap-5 w-6/12">
-            <h1 className="text-4xl w-fit">View</h1>
+            <h1 className="text-4xl text-yellow-300 w-fit">View</h1>
             <p className="ml-1">
               I love staring at a view when I&apos;m tired. It kind of heals me
               because the vibe is so chill, and I really enjoy it. There&apos;s
@@ -126,14 +125,52 @@ export default function page() {
             />
           </div>
           <div className="flex flex-col gap-5 w-6/12">
-            <h1 className="text-4xl w-fit">Cat</h1>
+            <h1 className="text-4xl text-yellow-300 w-fit">Cat</h1>
             <p className="ml-1">
-              I love them because they&apos;re so cute and fluffy. I enjoy stroking
-              their fur, and when they purr, it sounds adorable. I currently
-              have two cats, one male and one female, and they both look so
-              cute. Spending time with them always makes me feel relaxed,
-              especially when they curl up next to me. Their playful
+              I love them because they&apos;re so cute and fluffy. I enjoy
+              stroking their fur, and when they purr, it sounds adorable. I
+              currently have two cats, one male and one female, and they both
+              look so cute. Spending time with them always makes me feel
+              relaxed, especially when they curl up next to me. Their playful
               personalities and soft fur just make them impossible to resist.
+            </p>
+          </div>
+        </div>
+        <div className="h-fit w-10/12 mx-auto mt-36 p-5 flex items-center sticky top-48 gap-5 bg-zinc-800">
+          <div className="">
+            <Image
+              src="/assets/aeri.jpg"
+              width={400}
+              height={400}
+              alt="cat"
+              className="mx-auto"
+            />
+          </div>
+          <div className="flex flex-col gap-5 w-6/12">
+            <h1 className="text-4xl text-yellow-300 w-fit">Uchinaga Aeri</h1>
+            <p className="ml-1">
+              idk she's just cute and i can't help myself, so...
+            </p>
+          </div>
+        </div>
+        <div className="h-fit w-10/12 mx-auto mt-36 p-5 flex items-center sticky top-48 gap-5 bg-zinc-800">
+          <div className="">
+            <Image
+              src="/assets/nyam.jpg"
+              width={350}
+              height={350}
+              alt="cat"
+              className="mx-auto"
+            />
+          </div>
+          <div className="flex flex-col gap-5 w-6/12">
+            <h1 className="text-4xl text-yellow-300 w-fit">Fried Rice</h1>
+            <p className="ml-1">
+              This is my favorite dish, although it&apos;s not that healthy i
+              still love it because in different places that serves fried rice
+              as a dish, they come with different flavor, some have a bit sweet
+              taste some have a bit salty taste, depends on my mood i can love
+              every fried rice.
             </p>
           </div>
         </div>
