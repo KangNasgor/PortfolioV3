@@ -128,7 +128,7 @@ export default function page() {
           <div className="flex flex-col gap-5 w-6/12">
             <h1 className="text-4xl w-fit">Cat</h1>
             <p className="ml-1">
-              I love them because they're so cute and fluffy. I enjoy stroking
+              I love them because they&apos;re so cute and fluffy. I enjoy stroking
               their fur, and when they purr, it sounds adorable. I currently
               have two cats, one male and one female, and they both look so
               cute. Spending time with them always makes me feel relaxed,
