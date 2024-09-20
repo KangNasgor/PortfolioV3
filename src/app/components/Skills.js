@@ -15,12 +15,12 @@ export default function Skills() {
     <div className="h-fit w-9/12 mx-auto my-14">
       <div className="w-full p-3 rounded-md bg-zinc-800/75" data-aos="fade">
         <h1 className="text-4xl w-fit ml-2" data-aos="fade-right">Skills</h1>
-        <div className="flex flex-row md:flex-col gap-5 mt-5">
+        <div className="flex flex-row md:flex-col justify-between gap-5 mt-5">
           <div data-aos="fade-up">
             <h1 className="w-fit ml-2 font-semibold">Front-End</h1>
-            <div className="flex flex-col md:flex-row gap-4 py-3 pl-3">
+            <div className="flex flex-col md:flex-row gap-4 py-3 md:pl-3">
               <a href="https://react.dev" target="_blank">
-                <Image src={react} width={100} height={100} alt="react" />
+                <Image src={react} width={100} height={100} alt="react"/>
               </a>  
               <a href="https://nextjs.org" target="_blank">
                 <Image src={next} width={100} height={100} alt="nextjs" className="bg-white rounded-full"/>
@@ -39,11 +39,11 @@ export default function Skills() {
               </a>
             </div>
           </div>
-          <div className="w-px h-11/12 md:w-full mx-auto bg-white opacity-50" style={{height : "0.5px"}} data-aos="fade-right">
+          <div className="hidden md:block md:w-full mx-auto bg-white opacity-50" style={{height : "0.5px"}} data-aos="fade-right">
           </div>
           <div data-aos="fade-up">
             <h1 className="w-fit ml-2 font-semibold">Back-End</h1>
-            <div className="flex flex-col md:flex-row gap-5 py-3 pl-3">
+            <div className="flex flex-col md:flex-row gap-5 py-3 md:pl-3">
               <a href="https://www.php.net" target="_blank">
                 <Image src={php} width={100} height={100} alt="php"/>
               </a>
