@@ -149,7 +149,7 @@ export default function page() {
           <div className="flex flex-col gap-5 w-6/12">
             <h1 className="text-4xl text-yellow-300 w-fit">Uchinaga Aeri</h1>
             <p className="ml-1">
-              idk she's just cute and i can't help myself, so...
+              idk she&apos;s just cute and i can&apos;t help myself, so...
             </p>
           </div>
         </div>
