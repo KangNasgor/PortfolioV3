@@ -16,12 +16,14 @@ export default function Projects() {
     "/assets/swakarya-souvenir.png",
     "/assets/game.png",
     "/assets/app.png",
+    "/assets/zero.png",
   ];
   const precs = {
     0: <DapurCaica />,
     1: <SwakaryaSouvenir />,
     2: <Unity />,
     3: <ToDoApp />,
+    4: <ZeroCorp/>
   };
   return (
     <div className="h-screen pt-10 z-20">
@@ -103,6 +105,19 @@ const ToDoApp = () => {
         I created a simple to-do app for mobile using react native that has
         features like create, update, delete, edit, and save a to-do or a
         schedule.
+      </h3>
+    </div>
+  );
+};
+const ZeroCorp = () => {
+  return (
+    <div className="" data-aos="fade-right">
+      <h1 className="text-2xl md:text-4xl mb-5 text-yellow-300 lato tracking-wide">
+        ZERO corp Website
+      </h1>
+      <h3 className="text-sm md:text-md">
+        A website for a fictional company that retrieves its content from the database,
+        admin can handle the whole website by just using the admin panel.
       </h3>
     </div>
   );
