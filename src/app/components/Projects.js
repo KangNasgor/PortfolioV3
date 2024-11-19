@@ -17,13 +17,15 @@ export default function Projects() {
     "/assets/game.png",
     "/assets/app.png",
     "/assets/zero.png",
+    "/assets/movie.png",
   ];
   const precs = {
     0: <DapurCaica />,
     1: <SwakaryaSouvenir />,
     2: <Unity />,
     3: <ToDoApp />,
-    4: <ZeroCorp/>
+    4: <ZeroCorp/>,
+    5: <LK69/>
   };
   return (
     <div className="h-screen pt-10 z-20">
@@ -118,6 +120,19 @@ const ZeroCorp = () => {
       <h3 className="text-sm md:text-md">
         A website for a fictional company that retrieves its content from the database,
         admin can handle the whole website by just using the admin panel.
+      </h3>
+    </div>
+  );
+};
+const LK69 = () => {
+  return (
+    <div className="" data-aos="fade-right">
+      <h1 className="text-2xl md:text-4xl mb-5 text-yellow-300 lato tracking-wide">
+        LK69 Website
+      </h1>
+      <h3 className="text-sm md:text-md">
+        A website that allows user to search a movie and see the details of the movie
+        such as title, rating, and overview.
       </h3>
     </div>
   );
