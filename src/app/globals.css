@@ -73,9 +73,31 @@ body {
     scale: 0;
   }
 }
+@keyframes modalDivAnimationOpen{
+  0%{
+    opacity: 0;
+  }
+  100%{
+    opacity: 0.8;
+  }
+}
+@keyframes modalDivAnimationClose{
+  0%{
+    opacity: 0.8;
+  }
+  100%{
+    opacity: 0;
+  }
+}
 .modal-animation-open{
   animation: modalAnimationOpen 0.5s forwards;
 }
 .modal-animation-close{
   animation: modalAnimationClose 0.5s forwards;
+}
+.modal-div.open{
+  animation: modalDivAnimationOpen 0.5s forwards;
+}
+.modal-div-close{
+  animation: modalDivAnimationClose 0.5s forwards
 }
