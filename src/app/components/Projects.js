@@ -28,7 +28,7 @@ export default function Projects() {
     5: <LK69/>
   };
   return (
-    <div className="h-screen pt-10 z-20">
+    <div className="h-screen pt-10 z-20 overflow-hidden">
       <h1 className="text-4xl text-center mb-10 z-20" data-aos="fade-right">
         Previous Projects
       </h1>

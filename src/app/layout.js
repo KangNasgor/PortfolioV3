@@ -32,7 +32,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className={`${lato.variable} ${montserrat.variable} ${oswald.variable} ${poppins.variable}`}>
-      <div className="flex h-screen absolute md:fixed flex-col md:flex-row -z-30 text-center md:justify-center w-full items-center">
+      <div className="flex h-screen fixed flex-col md:flex-row -z-30 text-center md:justify-center w-full items-center">
           <div className="text-9xl md:text-11xl md:text-normal text-stroke text-black opacity-95 md:opacity-50">L</div>
           <div className="text-9xl md:text-11xl md:text-normal text-stroke text-black opacity-95 md:opacity-50">E</div>
           <div className="text-9xl md:text-11xl md:text-normal text-stroke text-black opacity-95 md:opacity-50">O</div>
