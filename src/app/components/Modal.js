@@ -6,19 +6,29 @@ import {
   faGithub,
   faYoutube,
 } from "@fortawesome/free-brands-svg-icons";
+import style from "../globals.css";
+
 
 export default function Modal({ display, setDisplay }) {
   const close = () => {
-    setDisplay(false);
+    const modal = document.querySelector('.modal');
+    const modalContent = document.querySelector('.modal-animation-open');
+    if(modal && event.target === modal){
+      modalContent.classList.remove('modal-animation-open');
+      modalContent.classList.add('modal-animation-close');
+      setTimeout(() => {
+        setDisplay(false);
+        modalContent.classList.add('modal-animation-open');
+        modalContent.classList.remove('modal-animation-close');
+      }, 300);
+    }
   };
   window.onclick = function(event){
-    if(event.target.classList.contains('modal')){
-      close();
-    }
+    close();
   }
   return (
-    <div className={`modal w-full h-full bg-black/[0.8] fixed left-1/2 transform -translate-x-1/2 top-0 rounded text-start transition-all ${ display == false ? "hidden" : "block" }`} style={{ zIndex: 9999 }}>
-      <div className='bg-white text-black px-5 py-4 mt-28 md:mt-52 w-9/12 md:w-5/12 rounded mx-auto' data-aos="fade-down">
+    <div className={`modal w-full h-full bg-black/[0.8] fixed left-1/2 transform -translate-x-1/2 top-0 rounded text-start ${ display  ? "block"  : "hidden" }`} style={{ zIndex: 9999 }}>
+      <div className='bg-white text-black px-5 py-4 mt-28 md:mt-52 w-9/12 md:w-5/12 rounded mx-auto modal-animation-open'>
         <div className="flex w-full h-8 items-center mb-8 md:mb-20 gap-2 justify-between">
           <button onClick={close}>
             <div className="gap-1">
