@@ -16,6 +16,7 @@
     "@fortawesome/react-fontawesome": "^0.2.2",
     "@types/react": "^18.3.4",
     "aos": "^3.0.0-beta.6",
+    "caniuse-lite": "^1.0.30001700",
     "d3-interpolate": "^3.0.1",
     "gsap": "^3.12.5",
     "next": "^14.2.7",
