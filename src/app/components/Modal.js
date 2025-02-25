@@ -24,23 +24,6 @@ export default function Modal({ display, setDisplay }) {
       }, 400);
     }
   };
-  window.onclick = function (event) {
-    const modal = document.querySelector(".modal");
-    const modalContent = document.querySelector(".modal-animation-open");
-    if (modal && event?.target === modal) {
-      modalContent.classList.remove("modal-animation-open");
-      modalContent.classList.add("modal-animation-close");
-      modal.classList.remove('modal-div-open');
-      modal.classList.add('modal-div-close');
-      setTimeout(() => {
-        setDisplay(false);
-        modalContent.classList.add("modal-animation-open");
-        modalContent.classList.remove("modal-animation-close");
-        modal.classList.add('modal-div-open');
-        modal.classList.remove('modal-div-close');
-      }, 400);
-    }
-  };
   return (
     <div
       className={`modal w-full h-full bg-black/[0.8] fixed left-1/2 transform -translate-x-1/2 modal-div-open top-0 rounded text-start ${
