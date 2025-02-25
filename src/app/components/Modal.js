@@ -1,11 +1,7 @@
 "use client";
 import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import {
-  faInstagram,
-  faGithub,
-  faYoutube,
-} from "@fortawesome/free-brands-svg-icons";
+import {faInstagram, faGithub, faYoutube} from "@fortawesome/free-brands-svg-icons";
 import style from "../globals.css";
 
 export default function Modal({ display, setDisplay }) {
